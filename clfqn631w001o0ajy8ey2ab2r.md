@@ -6,6 +6,7 @@ datePublished: Mon Mar 27 2023 09:43:36 GMT+0000 (Coordinated Universal Time)
 cuid: clfqn631w001o0ajy8ey2ab2r
 slug: why-we-chose-our-tech-stack-accelerating-development-with-a-robust-frontend-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/ObpCE_X3j6U/upload/d49eea9a45fc0fdde0016d0f1c7b6c3b.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1680094790091/886a7b85-49d4-431d-959e-0947d25fe740.png
 tags: tech-stacks, reactjs, typescript, frontend-development, nextjs
 
 ---
@@ -13,6 +14,8 @@ tags: tech-stacks, reactjs, typescript, frontend-development, nextjs
 At Dwarves Foundation, we pride ourselves on being a team of seasoned technology experts, passionate about crafting innovative solutions for our clients. With years of experience in the technology industry, we understand the importance of selecting the right tools and technologies to deliver exceptional results. In today's fast-paced world, staying ahead of the competition requires building and deploying features quickly without sacrificing quality or stability. When selecting a technology for our frontend tech stack, the foremost question we ask is: "Has this technology achieved a certain level of stability and maturity?" Quick wins are important, but truly transformative products, teams, and infrastructures require years of sustained effort. In this article, we'll discuss the key components of our tech stack and explain how they contribute to our ability to develop high-quality, scalable applications at lightning-fast speeds.
 
 ## Basic building blocks
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680094720888/5b25c6ce-3e53-4983-aeeb-3b64a193c6d2.png align="center")
 
 ### React
 
