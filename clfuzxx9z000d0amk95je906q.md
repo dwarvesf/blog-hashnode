@@ -5,6 +5,7 @@ seoDescription: "A case study at Dwarves Foundation to evaluate and demonstrate 
 datePublished: Thu Mar 30 2023 10:52:15 GMT+0000 (Coordinated Universal Time)
 cuid: clfuzxx9z000d0amk95je906q
 slug: case-study-how-blue-green-deployment-helped-mochi
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680175095856/b2d0a447-7121-4203-a11b-e3ec285e79ae.png
 tags: deployment, kubernetes, devops, argocd, bluegreen
 
 ---
