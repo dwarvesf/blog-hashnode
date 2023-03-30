@@ -214,7 +214,7 @@ An alternative would be to utilize the ArgoCD UI for the promotion, as it could 
 
 *ArgoCD rollout dashboard to manage blue-green applications*
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680180027862/57bfd73f-e7a6-4c2b-a11d-05751fd84c6e.png align="center")
 
 *ArgoCD service Mochi API*
 
