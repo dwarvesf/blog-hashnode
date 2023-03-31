@@ -217,8 +217,6 @@ Multilingual is a very important function for web or mobile applications nowaday
 
 If you have a difficult problem that you would like us to help you on, please feel free to submit a challenge request here.
 
-Come be with us
-
 We’d love to have you in our next chapter, by all means.
 
 * Discover what we do: [dwarves.foundation](http://dwarves.foundation)
