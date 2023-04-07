@@ -136,7 +136,7 @@ However, there are a few disadvantages of using PNPM. One of them is that it can
 
 PNPM's node\_modules layout uses [symbolic links to create a nested structure of dependencies](https://pnpm.io/symlinked-node-modules-structure). This has some implications for certain setups, where Windows machines or certain permissioned Linux environments may have trouble accessing these links.
 
-Another potential issue with PNPM is that its nested dependency structure may not be compatible with certain older packages. [This can cause issues when trying to install packages that have these dependencies](https://pnpm.io/limitations).
+Another potential issue with PNPM is that its nested dependency structure may not be compatible with certain older packages. [This can cause problems when trying to install packages using older lockfiles](https://pnpm.io/limitations).
 
 ## **Showcase**
 
