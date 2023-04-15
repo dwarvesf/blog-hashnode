@@ -26,7 +26,7 @@ Concurrent design is critical to software development, for applications that are
 
 Handling concurrency is second nature to any gopher. Our problem is a bit more distributed, but not so much that we would call it a distributed system in the truest sense. However, this does mean we need to approach it a bit differently than your average pet project. There are two approaches to tackling this:
 
-* **Distributed messaging** \- with messaging libraries like [Ergo](https://github.com/ergo-services/ergo) or [RabbitMQ](https://www.rabbitmq.com/), we can create application-level protocols between Go servers to communicate which servers are working and what jobs need to be done sequentially or in parallel.
+* **Distributed messaging** - with messaging libraries like [Ergo](https://github.com/ergo-services/ergo) or [RabbitMQ](https://www.rabbitmq.com/), we can create application-level protocols between Go servers to communicate which servers are working and what jobs need to be done sequentially or in parallel.
     
 * **Distributed locking** - using applications such as [Redis](https://redis.io/) or even [PostgreSQL](https://www.postgresql.org/) to create application-level locks to control sequential jobs or manage domain group locks for parallel work.
     
@@ -134,7 +134,7 @@ SalaryConfig:
 
 ### Side note for locking tables
 
-You may have noticed that you can also use advisory locks to help with application handling on inserts and updates to your tables on Postgres. It's probably not recommended to do so, since a better option is to use `SERIALIZABLE` isolation levels for your tables, especially anything concerning money.
+You may have noticed that you can also use advisory locks to help with application handling on inserts and updates to your tables on Postgres. It's probably not recommended to do so, since a better option is to use `SERIALIZABLE` isolation levels for your tables, especially with anything concerning finance.
 
 ### Another thing to consider
 
