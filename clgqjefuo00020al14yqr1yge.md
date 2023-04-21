@@ -10,9 +10,9 @@ tags: frontend, frontend-development, collaboration, experience, microfrontend
 
 ---
 
-# Introduction
-
 Co-authored with @[Thinh Le](@lqt93).
+
+# Introduction
 
 As we venture further into the dynamic world of frontend development, we developers are on a constant quest for techniques that boost productivity, maintainability, and collaboration among multiple teams. Micro-frontends have risen to prominence as a favored architectural choice for achieving these goals. In this article, we'll dive into the experiences and insights we've gained from a recent corporate micro-frontend implementation project, shedding light on the technical specifics and best practices that can be applied to comparable endeavors.
 
