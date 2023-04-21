@@ -5,6 +5,7 @@ seoDescription: "Blockchain technology has revolutionized the way we think about
 datePublished: Fri Apr 21 2023 10:13:16 GMT+0000 (Coordinated Universal Time)
 cuid: clgqe8iva000809mldzqq14af
 slug: design-system-for-layer-2-using-zk-rollup
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682072154792/7567d05f-3559-4db4-9ea7-395ce8c665d8.svg
 tags: blockchain, zero-knowledge, layer2, zkevm, zkrollup
 
 ---
