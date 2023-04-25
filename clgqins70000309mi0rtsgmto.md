@@ -35,7 +35,7 @@ As we embark on our journey through the world of React, Angular, and Vue, it's c
 | Feature | React | Angular | Vue |
 | --- | --- | --- | --- |
 | Release Year | 2013 | 2016 (Angular 2) | 2014 |
-| Latest Version | 18.x | 13.x | 3.x |
+| Latest Version | 18.x | 15.x | 3.x |
 | Popularity (GitHub Stars) | 200k+ | 87k+ | 210k+ |
 | Developed By | Facebook | Google | Evan You |
 | Programming Language | JavaScript/TypeScript | TypeScript | JavaScript/TypeScript |
