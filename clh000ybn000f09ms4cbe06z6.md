@@ -37,7 +37,7 @@ This is just a simple example. We also have many related scenarios like this, bu
 
 *Note that I will approach the problem by using PostgreSQL, so every concept in this article should be biased toward this database. Different databases can be implemented in different ways with different concepts and names, but under the hood, they should be similar.*
 
-## Firstly, what is the Explicit Locking in the Database?
+# Firstly, what is the Explicit Locking in the Database?
 
 Database locking is one of the most common mechanisms that helps us achieve concurrency control in a database by preventing multiple transactions from accessing the same data simultaneously. The first thing that we need to explore is the types of locking in SQL databases.
 
@@ -145,7 +145,7 @@ In the implementation, advisory locks try to acquire an `EXCLUSIVE` lock on a sp
 
 We're good to move on to the next part, where we'll discuss the actual problem.
 
-## Why do we need these locks, and how can we choose the right type of lock?
+# Why do we need these locks, and how can we choose the right type of lock?
 
 **Firstly, we continue with the problem that is raised at the beginning of this post.**
 
@@ -220,11 +220,11 @@ SELECT process_message(123);
 
 In general, advisory locks should be used sparingly and only when necessary. They can add complexity to the application code and can also be a source of contention and performance issues if not used correctly.
 
-## Conclusion
+# Conclusion
 
 Explicit locking is the most accessible way to resolve concurrency control in high-workload databases. Depending on the context of your application or feature, you can choose the proper type/level of database locking to avoid data conflicts, considering the pros and cons. However, this is not the only option. You can also choose other methods, such as implementing a queue or a separate service that divides and rules every request to your database. I hope this post helps you choose the right way to implement your application in the future.
 
-## REFERENCES
+# REFERENCES
 
 [\[1\]](https://publish.obsidian.md/#) “Documentation: 15: 13.3. Explicit Locking.”, Table 13.2. Conflicting Lock Modes, PostgreSQL, [https://www.postgresql.org/docs/current/explicit-locking.html](https://www.postgresql.org/docs/current/explicit-locking.html). Accessed 23 April 2023.
 
