@@ -472,7 +472,7 @@ func main() {
 
         log.Printf(" [*] Waiting for logs. To exit press CTRL+C")
         <-forever
-} 
+}
 ```
 
 To declare an exchange, we use the function:
@@ -551,9 +551,9 @@ Messages sent to a topic exchange can't have an arbitrary routing\_key - it must
 
 The binding key must also be in the same form. The logic behind the topic exchange is similar to a direct one - a message sent with a particular routing key will be delivered to all the queues that are bound with a matching binding key. However there are two important special cases for binding keys:
 
-* * (star) can substitute for exactly one word.
-        
-* # (hash) can substitute for zero or more words.
+* \\\* (star) can substitute for exactly one word.
+    
+* \\# (hash) can substitute for zero or more words.
     
 
 It's easiest to explain this in an example:
