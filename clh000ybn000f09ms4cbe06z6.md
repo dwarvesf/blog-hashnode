@@ -5,6 +5,7 @@ seoDescription: "Optimize SQL databases with concurrency control to prevent data
 datePublished: Fri Apr 28 2023 03:33:10 GMT+0000 (Coordinated Universal Time)
 cuid: clh000ybn000f09ms4cbe06z6
 slug: managing-dataflow-and-sql-database-with-concurrency-control
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/lRoX0shwjUQ/upload/67a4c3bcc547f149b4ebb69a1ed13e98.jpeg
 tags: postgresql, databases, concurrency, sql, system-design
 
 ---
