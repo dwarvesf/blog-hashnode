@@ -25,70 +25,67 @@ This post will explain these patterns with a simple example and walk you through
 
 The first popular one should be the `workers pool` pattern. Goroutine pools are a way of limiting the number of goroutines that can run concurrently. This pattern involves creating a fixed number of goroutines at startup and then using a channel to queue up work. When a new task arrives, it is added to the channel, and one of the idle goroutines picks it up and executes it.
 
-* Code example
-    
-    ```go
-    // worker simply double the number received from the jobs channel and send it to the results channel
-    func worker(id int, wg *sync.WaitGroup, jobs <-chan int, results chan<- int) {
-    	defer wg.Done()
-    	for j := range jobs {
-    		fmt.Println("worker", id, "processing job", j)
-    		results <- j * 2
-    	}
-    }
-    
-    func main() {
-    	const (
-    		numJobs, numWorkers = 5, 3
-    	)
-    	var (
-    		jobs     = make(chan int, numJobs)
-    		results  = make(chan int, numJobs)
-    		workerWg = new(sync.WaitGroup)
-    	)
-    	workerWg.Add(numWorkers)
-    
-    	// Create a pool of 3 workers
-    	for w := 1; w <= numWorkers; w++ {
-    		go worker(w, workerWg, jobs, results)
-    	}
-    
-    	go func() {
-    		defer close(results)
-    		workerWg.Wait()
-    	}()
-    
-    	// Add jobs to the queue
-    	go func() {
-    		defer close(jobs)
-    		for j := 1; j <= numJobs; j++ {
-    			jobs <- j
-    		}
-    	}()
-    
-    	// Collect results from the workers
-    	for res := range results {
-    		fmt.Println("RESULT:", res)
-    	}
-    }
-    ```
-    
-    ### The disadvantages of this pattern
-    
-    #### Limited scalability
-    
-    The worker pool pattern, with a fixed number of workers, can be limited in terms of scalability. If the workload increases beyond the capacity of the worker pool, performance may suffer. One solution to this problem is to use a **dynamic worker pool**. In a dynamic worker pool, the number of workers varies based on the workload. When there are more tasks to be processed, the pool increases the number of workers, and when the workload decreases, it reduces the number of workers.
-    
-    To implement a dynamic worker pool, we can use a combination of channels and goroutines. We can create a channel to receive tasks and another channel to send results. We can also create a goroutine that listens to the task channel and assigns tasks to available workers. Each worker is a goroutine that receives a task from the worker channel, processes it, and sends the result back to the result channel. To dynamically adjust the number of workers, we can use a separate goroutine that monitors the workload and adjusts the number of workers accordingly. By using a dynamic worker pool, we can achieve better scalability and utilization of resources. However, it requires careful tuning of parameters such as the workload threshold and the rate of worker creation/destruction to avoid overloading the system or creating too many unnecessary goroutines.
-    
-    #### Resource management
-    
-    Managing resources such as memory and CPU usage can be challenging with the worker pool pattern. Since the number of workers is fixed, it can be difficult to optimize resource usage for different types of workloads. If a worker takes too long to complete a task, we can **use a timeout mechanism for tasks**, such that the task can be timed out and reassigned to another worker. This ensures that no worker is blocked for an extended period of time and helps maintain the overall performance of the system.
-    
-    #### Task prioritization
-    
-    The worker pool pattern does not provide a built-in mechanism for task prioritization. This means that all tasks are treated equally, regardless of their importance or urgency. We can introduce a **priority queue** data structure to the workers pool pattern. A priority queue is a data structure that stores elements with associated priorities and allows for efficient retrieval of the element with the highest priority.
-    
+```go
+// worker simply double the number received from the jobs channel and send it to the results channel
+func worker(id int, wg *sync.WaitGroup, jobs <-chan int, results chan<- int) {
+	defer wg.Done()
+	for j := range jobs {
+		fmt.Println("worker", id, "processing job", j)
+		results <- j * 2
+	}
+}
+
+func main() {
+	const (
+		numJobs, numWorkers = 5, 3
+	)
+	var (
+		jobs     = make(chan int, numJobs)
+		results  = make(chan int, numJobs)
+		workerWg = new(sync.WaitGroup)
+	)
+	workerWg.Add(numWorkers)
+
+	// Create a pool of 3 workers
+	for w := 1; w <= numWorkers; w++ {
+		go worker(w, workerWg, jobs, results)
+	}
+
+	go func() {
+		defer close(results)
+		workerWg.Wait()
+	}()
+
+	// Add jobs to the queue
+	go func() {
+		defer close(jobs)
+		for j := 1; j <= numJobs; j++ {
+			jobs <- j
+		}
+	}()
+
+	// Collect results from the workers
+	for res := range results {
+		fmt.Println("RESULT:", res)
+	}
+}
+```
+
+### The disadvantages of this pattern
+
+#### Limited scalability
+
+The worker pool pattern, with a fixed number of workers, can be limited in terms of scalability. If the workload increases beyond the capacity of the worker pool, performance may suffer. One solution to this problem is to use a **dynamic worker pool**. In a dynamic worker pool, the number of workers varies based on the workload. When there are more tasks to be processed, the pool increases the number of workers, and when the workload decreases, it reduces the number of workers.
+
+To implement a dynamic worker pool, we can use a combination of channels and goroutines. We can create a channel to receive tasks and another channel to send results. We can also create a goroutine that listens to the task channel and assigns tasks to available workers. Each worker is a goroutine that receives a task from the worker channel, processes it, and sends the result back to the result channel. To dynamically adjust the number of workers, we can use a separate goroutine that monitors the workload and adjusts the number of workers accordingly. By using a dynamic worker pool, we can achieve better scalability and utilization of resources. However, it requires careful tuning of parameters such as the workload threshold and the rate of worker creation/destruction to avoid overloading the system or creating too many unnecessary goroutines.
+
+#### Resource management
+
+Managing resources such as memory and CPU usage can be challenging with the worker pool pattern. Since the number of workers is fixed, it can be difficult to optimize resource usage for different types of workloads. If a worker takes too long to complete a task, we can **use a timeout mechanism for tasks**, such that the task can be timed out and reassigned to another worker. This ensures that no worker is blocked for an extended period of time and helps maintain the overall performance of the system.
+
+#### Task prioritization
+
+The worker pool pattern does not provide a built-in mechanism for task prioritization. This means that all tasks are treated equally, regardless of their importance or urgency. We can introduce a **priority queue** data structure to the workers pool pattern. A priority queue is a data structure that stores elements with associated priorities and allows for efficient retrieval of the element with the highest priority.
 
 ## The Fan-Out/Fan-In pattern
 
@@ -100,96 +97,93 @@ The `fan-out` part of the pattern involves distributing work among multiple work
 
 The fan-out, fan-in pattern is particularly useful in situations where tasks can be divided into smaller, independent units and processed concurrently. This pattern not only improves application performance but also enhances code maintainability and readability by separating the concerns of distributing tasks and aggregating results.
 
-* Code example
-    
-    ```go
-    // simulateDownload simulates downloading a file and returns its content.
-    func simulateDownload(url string) string {
-    	time.Sleep(time.Duration(rand.Intn(100)) * time.Millisecond)
-    	return fmt.Sprintf("Content of %s", url)
-    }
-    
-    // downloader downloads a list of URLs and returns the content.
-    func downloader(urls []string) <-chan string {
-    	out := make(chan string)
-    	go func() {
-    		defer close(out)
-    		for _, url := range urls {
-    			out <- simulateDownload(url)
-    		}
-    	}()
-    	return out
-    }
-    
-    // worker processes the content and returns the number of words.
-    func worker(in <-chan string) <-chan int {
-    	out := make(chan int)
-    	go func() {
-    		defer close(out)
-    		for content := range in {
-    			fmt.Println(time.Now().Format("2006-01-02 15:04:05.000000000 -0700 MST"))
-    			fmt.Printf("Processing content: %s\\n", content)
-    			words := strings.Fields(content)
-    			out <- len(words)
-    		}
-    	}()
-    	return out
-    }
-    
-    // merger merges the results from multiple workers.
-    func merger(ins ...<-chan int) <-chan int {
-    	out := make(chan int)
-    	var wg sync.WaitGroup
-    	wg.Add(len(ins))
-    
-    	for _, in := range ins {
-    		go func(in <-chan int) {
-    			defer wg.Done()
-    			for n := range in {
-    				fmt.Printf("Merging result: %d\\n\\n", n)
-    				out <- n
-    			}
-    		}(in)
-    	}
-    
-    	go func() {
-    		defer close(out)
-    		wg.Wait()
-    	}()
-    
-    	return out
-    }
-    
-    func main() {
-    	rand.Seed(time.Now().UnixNano())
-    
-    	urls := []string{
-    		"<https://example.com/file1.txt>",
-    		"<https://example.com/file2.txt>",
-    		"<https://example.com/file3.txt>",
-    		"<https://example.com/file4.txt>",
-    		"<https://example.com/file5.txt>",
-    	}
-    
-    	downloadStream := downloader(urls)
-    	numWorkers := 3
-    
-    	workerChannels := make([]<-chan int, numWorkers)
-    	for i := 0; i < numWorkers; i++ {
-    		workerChannels[i] = worker(downloadStream)
-    	}
-    
-    	merged := merger(workerChannels...)
-    
-    	totalWordCount := 0
-    	for count := range merged {
-    		totalWordCount += count
-    	}
-    
-    	fmt.Printf("Total word count: %d\\n", totalWordCount)
-    }
-    ```
-    
+```go
+// simulateDownload simulates downloading a file and returns its content.
+func simulateDownload(url string) string {
+	time.Sleep(time.Duration(rand.Intn(100)) * time.Millisecond)
+	return fmt.Sprintf("Content of %s", url)
+}
+
+// downloader downloads a list of URLs and returns the content.
+func downloader(urls []string) <-chan string {
+	out := make(chan string)
+	go func() {
+		defer close(out)
+		for _, url := range urls {
+			out <- simulateDownload(url)
+		}
+	}()
+	return out
+}
+
+// worker processes the content and returns the number of words.
+func worker(in <-chan string) <-chan int {
+	out := make(chan int)
+	go func() {
+		defer close(out)
+		for content := range in {
+			fmt.Println(time.Now().Format("2006-01-02 15:04:05.000000000 -0700 MST"))
+			fmt.Printf("Processing content: %s\\n", content)
+			words := strings.Fields(content)
+			out <- len(words)
+		}
+	}()
+	return out
+}
+
+// merger merges the results from multiple workers.
+func merger(ins ...<-chan int) <-chan int {
+	out := make(chan int)
+	var wg sync.WaitGroup
+	wg.Add(len(ins))
+
+	for _, in := range ins {
+		go func(in <-chan int) {
+			defer wg.Done()
+			for n := range in {
+				fmt.Printf("Merging result: %d\\n\\n", n)
+				out <- n
+			}
+		}(in)
+	}
+
+	go func() {
+		defer close(out)
+		wg.Wait()
+	}()
+
+	return out
+}
+
+func main() {
+	rand.Seed(time.Now().UnixNano())
+
+	urls := []string{
+		"<https://example.com/file1.txt>",
+		"<https://example.com/file2.txt>",
+		"<https://example.com/file3.txt>",
+		"<https://example.com/file4.txt>",
+		"<https://example.com/file5.txt>",
+	}
+
+	downloadStream := downloader(urls)
+	numWorkers := 3
+
+	workerChannels := make([]<-chan int, numWorkers)
+	for i := 0; i < numWorkers; i++ {
+		workerChannels[i] = worker(downloadStream)
+	}
+
+	merged := merger(workerChannels...)
+
+	totalWordCount := 0
+	for count := range merged {
+		totalWordCount += count
+	}
+
+	fmt.Printf("Total word count: %d\\n", totalWordCount)
+}
+```
 
 Here’s a breakdown of the code:
 
@@ -197,11 +191,11 @@ Here’s a breakdown of the code:
     
 2. Define `simulateDownload(url string)` function, which simulates downloading a file from the provided URL and returns its content as a string.
     
-3. Define `downloader(urls []string)` function, which takes a slice of URLs and returns a channel that sends the content of each URL. It launches a goroutine that iterates over the URLs, simulates the download, and sends the content through the channel. The channel is closed after all URLs have been processed. *It will be* ***fan-out part****: the* `downloader` function creates a single `downloadStream` channel that sends the content of each downloaded file. Later, we will create multiple worker goroutines that listen to this shared channel, effectively fanning out the work to be done concurrently.
+3. Define `downloader(urls []string)` function, which takes a slice of URLs and returns a channel that sends the content of each URL. It launches a goroutine that iterates over the URLs, simulates the download, and sends the content through the channel. The channel is closed after all URLs have been processed. *It will be* ***fan-out part***\*: the\* `downloader` function creates a single `downloadStream` channel that sends the content of each downloaded file. Later, we will create multiple worker goroutines that listen to this shared channel, effectively fanning out the work to be done concurrently.
     
 4. Define `worker(in <-chan string)` function, which takes a channel of strings as input and returns a channel of integers. It launches a goroutine that reads the content from the input channel, prints the processing timestamp and content, counts the number of words in the content, and sends the count through the output channel. The output channel is closed after all content has been processed.
     
-5. Define `merger(ins ...<-chan int)` function, which takes a variadic parameter of channels with integer values and returns a channel with integer values. It merges the input channels into a single output channel. A `sync.WaitGroup` is used to wait for all input channels to be processed, after which the output channel is closed. *It will be* ***fan-in part****: the* `merger` function combines the results from multiple worker goroutines by listening to their individual output channels. It uses a `sync.WaitGroup` to ensure that it waits for all the worker goroutines to complete before closing its output channel.
+5. Define `merger(ins ...<-chan int)` function, which takes a variadic parameter of channels with integer values and returns a channel with integer values. It merges the input channels into a single output channel. A `sync.WaitGroup` is used to wait for all input channels to be processed, after which the output channel is closed. *It will be* ***fan-in part***\*: the\* `merger` function combines the results from multiple worker goroutines by listening to their individual output channels. It uses a `sync.WaitGroup` to ensure that it waits for all the worker goroutines to complete before closing its output channel.
     
 6. In the `main` function, seed the random generator, define a slice of URLs, and create a download stream by calling the `downloader()` function.
     
@@ -262,83 +256,80 @@ The benefit of a pipeline is evident:
 
 The stages in the example above run sequentially. Each can only begin after the previous stage has processed all the data. Leveraging the Goroutine and channel, stages can run and process data concurrently. First, we transform our `add` and `multiply`function to take in an `inputCh` and outputs a `resultCh`.
 
-* Code example
-    
-    ```go
-    func generator(doneCh chan struct{}, input []int) chan int {
-    	inputCh := make(chan int)
-    
-    	go func() {
-    		defer close(inputCh)
-    
-    		for _, data := range input {
-    			select {
-    			case <-doneCh:
-    				return
-    			case inputCh <- data:
-    			}
-    		}
-    	}()
-    
-    	return inputCh
-    }
-    
-    func add(doneCh chan struct{}, inputCh chan int) chan int {
-    	addRes := make(chan int)
-    
-    	go func() {
-    		defer close(addRes)
-    
-    		for data := range inputCh {
-    			result := data + 1
-    
-    			select {
-    			case <-doneCh:
-    				return
-    			case addRes <- result:
-    			}
-    		}
-    	}()
-    
-    	return addRes
-    }
-    
-    func multiply(doneCh chan struct{}, inputCh chan int) chan int {
-    	multiplyRes := make(chan int)
-    
-    	go func() {
-    		defer close(multiplyRes)
-    
-    		for data := range inputCh {
-    			result := data * 2
-    
-    			select {
-    			case <-doneCh:
-    				return
-    			case multiplyRes <- result:
-    			}
-    		}
-    	}()
-    
-    	return multiplyRes
-    }
-    
-    func main() {
-    	input := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-    
-    	doneCh := make(chan struct{})
-    	defer close(doneCh)
-    
-    	inputCh := generator(doneCh, input)
-    
-    	resultCh := multiply(doneCh, add(doneCh, inputCh))
-    
-    	for res := range resultCh {
-    		fmt.Println(res)
-    	}
-    }
-    ```
-    
+```go
+func generator(doneCh chan struct{}, input []int) chan int {
+	inputCh := make(chan int)
+
+	go func() {
+		defer close(inputCh)
+
+		for _, data := range input {
+			select {
+			case <-doneCh:
+				return
+			case inputCh <- data:
+			}
+		}
+	}()
+
+	return inputCh
+}
+
+func add(doneCh chan struct{}, inputCh chan int) chan int {
+	addRes := make(chan int)
+
+	go func() {
+		defer close(addRes)
+
+		for data := range inputCh {
+			result := data + 1
+
+			select {
+			case <-doneCh:
+				return
+			case addRes <- result:
+			}
+		}
+	}()
+
+	return addRes
+}
+
+func multiply(doneCh chan struct{}, inputCh chan int) chan int {
+	multiplyRes := make(chan int)
+
+	go func() {
+		defer close(multiplyRes)
+
+		for data := range inputCh {
+			result := data * 2
+
+			select {
+			case <-doneCh:
+				return
+			case multiplyRes <- result:
+			}
+		}
+	}()
+
+	return multiplyRes
+}
+
+func main() {
+	input := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+	doneCh := make(chan struct{})
+	defer close(doneCh)
+
+	inputCh := generator(doneCh, input)
+
+	resultCh := multiply(doneCh, add(doneCh, inputCh))
+
+	for res := range resultCh {
+		fmt.Println(res)
+	}
+}
+```
 
 Here’s a breakdown of the code:
 
@@ -377,28 +368,25 @@ As you spawn more Goroutines to process requests concurrently, this leaves us wi
 
 Unlike mutex lock, which allows a single thread to access a resource at a time, Semaphore allows `N` threads to access a resource at a time. Using the concept of a buffered channel, we can design a semaphore easily.
 
-* Code example
-    
-    ```go
-    type Semaphore struct {
-    	semaCh chan struct{}
-    }
-    
-    func NewSemaphore(maxReq int) *Semaphore {
-    	return &Semaphore{
-    		semaCh: make(chan struct{}, maxReq),
-    	}
-    }
-    
-    func (s *Semaphore) Acquire() {
-    	s.semaCh <- struct{}{}
-    }
-    
-    func (s *Semaphore) Release() {
-    	<-s.semaCh
-    }
-    ```
-    
+```go
+type Semaphore struct {
+	semaCh chan struct{}
+}
+
+func NewSemaphore(maxReq int) *Semaphore {
+	return &Semaphore{
+		semaCh: make(chan struct{}, maxReq),
+	}
+}
+
+func (s *Semaphore) Acquire() {
+	s.semaCh <- struct{}{}
+}
+
+func (s *Semaphore) Release() {
+	<-s.semaCh
+}
+```
 
 1. The `NewSemaphore` initiates a `Semaphore` by creating a buffered channel with the capacity of `maxReq`
     
@@ -409,37 +397,36 @@ Unlike mutex lock, which allows a single thread to access a resource at a time, 
 4. When a Goroutine `Release` a semaphore, an empty struct will be sent out of the channel, creating space in the buffered channel for subsequent `Acquire`
     
 
-* Let’s take a look at an example:
-    
-    ```go
-    func main() {
-    	var wg sync.WaitGroup
-    	semaphore := NewSemaphore(2)
-    
-    	for idx := 0; idx < 10; idx++ {
-    		wg.Add(1)
-    
-    		go func(taskID int) {
-    			semaphore.Acquire()
-    
-    			defer wg.Done()
-    			defer semaphore.Release()
-    
-    			msg := fmt.Sprintf(
-    				"%s Running worker %d",
-    				time.Now().Format("15:04:05"),
-    				taskID,
-    			)
-    			fmt.Println(msg)
-    
-    			time.Sleep(1 * time.Second)
-    		}(idx)
-    	}
-    
-    	wg.Wait()
-    }
-    ```
-    
+Let’s take a look at an example:
+
+```go
+func main() {
+	var wg sync.WaitGroup
+	semaphore := NewSemaphore(2)
+
+	for idx := 0; idx < 10; idx++ {
+		wg.Add(1)
+
+		go func(taskID int) {
+			semaphore.Acquire()
+
+			defer wg.Done()
+			defer semaphore.Release()
+
+			msg := fmt.Sprintf(
+				"%s Running worker %d",
+				time.Now().Format("15:04:05"),
+				taskID,
+			)
+			fmt.Println(msg)
+
+			time.Sleep(1 * time.Second)
+		}(idx)
+	}
+
+	wg.Wait()
+}
+```
 
 1. We create a semaphore with the capacity of `2`
     
