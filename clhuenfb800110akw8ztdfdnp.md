@@ -62,7 +62,7 @@ At Dwarves, we are testing transcribing some of our old videos as well as more r
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1684484258538/8e70f0cb-7765-43e3-9fec-17ac3d5b8c05.png align="center")
 
-Above is a manually inputted prompt, but you can definitely try to generalize these types of prompts with a clear and long enough context and syllables to watch out for.
+As with above, you can use prompt engineering to make educated assumptions on the overall context of a piece of text. Above is a manually inputted prompt, but you can definitely try to generalize these types of prompts with a clear and long enough context and syllables to watch out for.
 
 ## Risks of Adversarial Prompting
 
