@@ -54,7 +54,7 @@ For example, we can format the chat to output Excel formulas, using a bit of [ro
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1684490172515/7667c265-21df-43b2-a34e-b199224ae6ba.png align="center")
 
-Then in our frontend application, we can parse the equation into a more usable format to display the answer in a different format, e.g: an embedded sheets view or an image of the Excel data.
+You can further edit the context to better fit your intended format. Then in the frontend application, we can parse the equation into a more usable format to display the answer in a different format, e.g: an embedded sheets view or an image of the Excel data.
 
 ### Pre-context to fix mistakes and errors
 
@@ -84,7 +84,6 @@ At the end of the day, prompt engineering is an essential tool for improving the
 
 * [https://learnprompting.org/](https://learnprompting.org/)
     
-
 * [https://www.promptingguide.ai/risks/adversarial](https://www.promptingguide.ai/risks/adversarial)
     
 * [https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html](https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html)
