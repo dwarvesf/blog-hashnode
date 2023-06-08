@@ -1,5 +1,6 @@
 ---
 title: "Overcoming Distributed System Challenges Using Golang"
+seoTitle: "Overcoming Distributed System Challenges Using Golang"
 seoDescription: "Golang helps simplify distributed systems with efficient concurrency, libraries, and tools. Handles session management, communication, and scalability."
 datePublished: Fri May 26 2023 09:46:25 GMT+0000 (Coordinated Universal Time)
 cuid: cli4dot8n000f0ajmb2po837w
