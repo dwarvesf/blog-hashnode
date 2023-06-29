@@ -24,7 +24,7 @@ To tailor the interaction, we incorporated the context of the product — its na
 
 ## **The Results**
 
-Our venture into leveraging the MVP chatbot has shown some remarkable results. The chatbot was designed to answer basic product-related questions, and it met our expectations by providing correct responses 90% of the time. Questions such as “*where is this product made?” or* *“how long is the warranty?”* were handled effectively by the chatbot.
+Our venture into leveraging the MVP chatbot has shown some great results. The chatbot was designed to answer basic product-related questions, and it met our expectations by providing correct responses 90% of the time. Questions such as “*where is this product made?” or* *“how long is the warranty?”* were handled effectively by the chatbot.
 
 ![Chatbot integration in the product detail page](https://cdn.hashnode.com/res/hashnode/image/upload/v1687779856702/6f8784e1-1cbb-449e-86c4-0e5b56a79d13.gif align="center")
 
