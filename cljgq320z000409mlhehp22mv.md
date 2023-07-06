@@ -411,6 +411,10 @@ jobs:
         ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687924917134/9dac5e1b-399e-45ed-aa43-fdfd08172579.png align="center")
         
 
+## Template
+
+We have developed a comprehensive [Turborepo with Vercel CLI Deployment template](https://github.com/dwarvesf/monorepo-deploy-gh-actions-template) that offers a step-by-step guide for each of the processes mentioned earlier. This template serves as a valuable reference and resource to help you navigate through the various steps with ease. By following the instructions provided in the template, you can effortlessly set up your project using Turborepo and deploy it using Vercel CLI.
+
 ## Diagram
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687925099474/3d7a7ac1-36c9-45c8-b593-3372e43da07a.png align="center")
