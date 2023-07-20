@@ -1,5 +1,6 @@
 ---
 title: "Common design patterns in Golang - Part 1"
+seoTitle: "Golang Design Patterns: Part 1"
 seoDescription: "Explore Golang design patterns like Singleton, Factory, and Builder for flexible, reusable objects. Learn Go implementation and benefits."
 datePublished: Thu Jul 20 2023 09:37:57 GMT+0000 (Coordinated Universal Time)
 cuid: clkaylsdi000d09jsa8s9hy7l
