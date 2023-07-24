@@ -1,9 +1,10 @@
 ---
 title: "Level Up Your Testing Game: Harnessing Gomock for Unbeatable Unit Testing in Go"
+seoDescription: "Master Gomock for Go unit testing: install, create mock objects, set expectations, and enhance code quality with this robust framework"
 datePublished: Mon Jul 24 2023 06:33:15 GMT+0000 (Coordinated Universal Time)
 cuid: clkghrnya001j0amh3ncra1bb
 slug: level-up-your-testing-game-harnessing-gomock-for-unbeatable-unit-testing-in-go
-tags: golang, backend, testing
+tags: golang, backend, testing, mocking, code-quality
 
 ---
 
