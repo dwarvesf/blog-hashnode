@@ -253,6 +253,6 @@ In conclusion, this article explores GoMock, a widely used Go framework designed
 
 [https://betterprogramming.pub/a-gomock-quick-start-guide-71bee4b3a6f1](https://betterprogramming.pub/a-gomock-quick-start-guide-71bee4b3a6f1)
 
-You can find the full source code in our example repo:
+You can find the full source code in this example repo:
 
 * [https://github.com/datphamcode295/gomock\_testing\_example](https://github.com/datphamcode295/gomock_testing_example)
