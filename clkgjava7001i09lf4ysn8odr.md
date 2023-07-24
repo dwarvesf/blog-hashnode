@@ -1,9 +1,11 @@
 ---
-title: "Test Doubles"
+title: "Understanding Test Doubles: An In-Depth Look"
+seoDescription: "Explore Go programming Test Doubles: Dummies, Stubs, Spies, Mocks, Fakes. Boost unit testing, elevate software quality, and isolate code behavior."
 datePublished: Mon Jul 24 2023 07:16:11 GMT+0000 (Coordinated Universal Time)
 cuid: clkgjava7001i09lf4ysn8odr
-slug: test-doubles
-tags: backend, testing, data-types
+slug: understanding-test-doubles-an-in-depth-look
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/qWwpHwip31M/upload/299accc520e895cfe58f62813698d063.jpeg
+tags: backend, test, testing, mocking, data-types
 
 ---
 
