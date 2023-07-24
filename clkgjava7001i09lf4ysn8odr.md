@@ -15,7 +15,7 @@ Test Doubles, also known as Test Fakes or Test Stubs, are powerful techniques us
 
 ### The five types of Test Doubles are:
 
-![https://jesusvalerareales.com/images/2020-06-11/2.png](https://jesusvalerareales.com/images/2020-06-11/2.png)
+![https://jesusvalerareales.com/images/2020-06-11/2.png](https://jesusvalerareales.com/images/2020-06-11/2.png align="left")
 
 * **Dummy**: It is used as a placeholder when an argument needs to be filled in.
     
@@ -399,14 +399,37 @@ In the above example, we create a Fake implementation of the `FileStore` interfa
 
 ## Best practices
 
-| Test Double | Purpose | Behavior | Interaction Verification | Internal Behavior Recording | Use Case in Real Projects | Key Characteristics | Verification |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Dummy | Placeholder object | Does nothing | No | No | When a parameter is required but not used in the test | \- Provides a valid object to fulfill method signature requirements - Does not affect the test outcome as it's not involved in the test logic - Often used in situations where an argument is necessary but has no impact on the test behavior | Not applicable |
-| Stub | Provide predetermined responses | Returns fixed values | No | No | Simulating simple behaviors or reducing dependencies | \- Returns fixed values or exceptions for method calls - Used when you want to isolate the code from complex external dependencies - Suitable for emulating read-only operations or methods with predictable behaviors | Not applicable |
-| Mock | Set expectations on interactions | Returns predetermined values | Yes | No | Testing how an object interacts with its dependencies | \- Sets expectations on method calls and parameters - Verifies whether specific methods were invoked and how many times - Can throw exceptions based on predefined conditions - Helps in testing interaction patterns and ensuring proper collaboration between objects | Checks if expected interactions occurred |
-| Fake | Alternative simplified implementation | Replicates some real behavior | No | No | Replacing resource-heavy dependencies for faster testing | \- Provides an alternative implementation of a dependency with simplified functionality - Can be used to replace a slow or resource-intensive component with a lighter, faster version - Often used for databases, file systems, or external services where setting up the real component is impractical or time-consuming | May not require explicit verification |
-| Spy | Record interactions and parameters | Returns actual data but records calls | Yes | No | Observing and recording internal interactions | \- Acts as a wrapper around the real object to monitor method calls and their parameters - Records the interactions and usage patterns during the test - Useful when you want to test both the result and how the result was achieved - Provides insights into how the object under test is used in the application | May be used to assert expected behavior |
-| Double | General term for any test substitute | Varies depending on the type of double | Varies depending on the type of double | Varies depending on the type of double | Varied based on the specific type of double used | \- A general term for any object that substitutes a real dependency in testing - Can refer to dummy, stub, mock, fake, or spy - Enables test isolation and focuses on specific components or behaviors | Verification depends on the specific test double used |
+| Test Double | Purpose | Behavior | Interaction Verification | Internal Behavior Recording | Use Case in Real Projects | Verification |
+| --- | --- | --- | --- | --- | --- | --- |
+| Dummy | Placeholder object | Does nothing | No | No | When a parameter is required but not used in the test | Not applicable |
+| Stub | Provide predetermined responses | Returns fixed values | No | No | Simulating simple behaviors or reducing dependencies | Not applicable |
+| Mock | Set expectations on interactions | Returns predetermined values | Yes | No | Testing how an object interacts with its dependencies | Checks if expected interactions occurred |
+| Fake | Alternative simplified implementation | Replicates some real behavior | No | No | Replacing resource-heavy dependencies for faster testing | May not require explicit verification |
+| Spy | Record interactions and parameters | Returns actual data but records calls | Yes | No | Observing and recording internal interactions | May be used to assert expected behavior |
+| Double | General term for any test substitute | Varies depending on the type of double | Varies depending on the type of double | Varies depending on the type of double | Varied based on the specific type of double used | Verification depends on the specific test double used |
+
+| Test Double | Key Characteristics |
+| --- | --- |
+| Dummy | \- Provides a valid object to fulfill method signature requirements  
+\- Does not affect the test outcome as it's not involved in the test logic  
+\- Often used in situations where an argument is necessary but has no impact on the test behavior |
+| Stub | \- Returns fixed values or exceptions for method calls  
+\- Used when you want to isolate the code from complex external dependencies  
+\- Suitable for emulating read-only operations or methods with predictable behaviors |
+| Mock | \- Sets expectations on method calls and parameters  
+\- Verifies whether specific methods were invoked and how many times  
+\- Can throw exceptions based on predefined conditions  
+\- Helps in testing interaction patterns and ensuring proper collaboration between objects |
+| Fake | \- Provides an alternative implementation of a dependency with simplified functionality  
+\- Can be used to replace a slow or resource-intensive component with a lighter, faster version  
+\- Often used for databases, file systems, or external services where setting up the real component is impractical or time-consuming |
+| Spy | \- Acts as a wrapper around the real object to monitor method calls and their parameters  
+\- Records the interactions and usage patterns during the test  
+\- Useful when you want to test both the result and how the result was achieved  
+\- Provides insights into how the object under test is used in the application |
+| Double | \- A general term for any object that substitutes a real dependency in testing  
+\- Can refer to dummy, stub, mock, fake, or spy  
+\- Enables test isolation and focuses on specific components or behaviors |
 
 ## Conclusion
 
