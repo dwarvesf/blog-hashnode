@@ -4,6 +4,7 @@ seoDescription: "Master Gomock for Go unit testing: install, create mock objects
 datePublished: Mon Jul 24 2023 06:33:15 GMT+0000 (Coordinated Universal Time)
 cuid: clkghrnya001j0amh3ncra1bb
 slug: level-up-your-testing-game-harnessing-gomock-for-unbeatable-unit-testing-in-go
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/SVmaaACzcJ8/upload/708b8f311c84d4a6b48a31c86db9a001.jpeg
 tags: golang, backend, testing, mocking, code-quality
 
 ---
@@ -33,7 +34,7 @@ To utilize Gomock effectively, developers can make use of the toolset provided b
 
 * CLI generator: often referred to as "mockgen," is a command-line tool that automatically generates mock implementations of interfaces based on Go source files.
     
-* Library: is the Golang library that developers can import into their test code to create and manage mocks and write test function.
+* Library: is the Golang library that developers can import into their test code to create and manage mocks and write test functions.
     
 
 ### Step to making unit test
@@ -95,7 +96,7 @@ The `testing` package is Go's built-in testing package, and `gomock` provides th
 
 Before we can start using Gomock, we need to generate mock implementations for our interfaces. To do this, we'll use the `mockgen` tool we installed earlier.
 
-```go
+```bash
 mockgen -source main.go -destination mocks/mocks.go
 ```
 
@@ -139,7 +140,7 @@ As a user, I need a function to login into the system. The function should be in
 
 First, let’s talk about the source code. This is the directory tree graph for the source code:
 
-```go
+```plaintext
 ├── go.mod
 ├── go.sum
 ├── main.go
@@ -151,7 +152,7 @@ First, let’s talk about the source code. This is the directory tree graph for 
 
 Note: *You can find the code in the Github* [HERE](https://github.com/datphamcode295/gomock_testing_example) !!!
 
-In the source, `models` package contains declare of all models in the system and `store` package includes functions which interact with the database. In the `controller` package we import above packages to use:
+In the source, `models` package contains declare of all models in the system and `store` package includes functions that interact with the database. In the `controller` package, we import the above packages to use:
 
 ```go
 package controller
@@ -182,7 +183,7 @@ func (c *Auth) Login(email string, pass string) (*models.User, error) {
 }
 ```
 
-This code defines and `Auth` interface that implement a function call `Login()`. In the `Login()` function we simplify by just call the `GetUser()` function to check whether user exist in the DB or not. Then, it will return `User` model or error base on the response.
+This code defines and `Auth` interface that implements a function call `Login()`. In the `Login()` function we simplify by just calling the `GetUser()` function to check whether user exist in the DB or not. Then, it will return `User` model or error based on the response.
 
 ### Steps to make unit test with Gomock
 
@@ -190,7 +191,7 @@ This code defines and `Auth` interface that implement a function call `Login()`.
 
 To create Mock Object from the interface in the file main.go we use command:
 
-```plaintext
+```bash
 $ mockgen -source store/user.go -destination mocks/mocks.go
 ```
 
@@ -218,7 +219,7 @@ mockUserRepository.EXPECT().GetUser(tt.args.email, tt.args.pass).Return(tt.want,
 user, err := testAuthController.Login(tt.args.email, tt.args.pass)
 ```
 
-In this code snippet, the `EXPECT()` call is immediately followed by the `.GetUser()` call, where you define the parameters that the mock implementation of the UserClient’s `GetUser()` function should accept. Your test will fail if any of the test code makes calls to the `GetUser()` function that do not match the parameters you've defined.
+In this code snippet, the `EXPECT()` call is immediately followed by the `.GetUser()` call, where you define the parameters that the mock implementation of the UserClient’s `GetUser()` function should accept. Your test will fail if any of the test code makes calls to the `GetUser()` function that does not match the parameters you've defined.
 
 To avoid hardcoding, you can replace parameters with `gomock.Any()`. However, where possible, use specific parameters to make your tests less ambiguous.
 
