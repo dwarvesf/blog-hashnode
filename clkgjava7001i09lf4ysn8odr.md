@@ -1,5 +1,6 @@
 ---
 title: "Understanding Test Doubles: An In-Depth Look"
+seoTitle: "Understanding Test Doubles: An In-Depth Look"
 seoDescription: "Explore Go programming Test Doubles: Dummies, Stubs, Spies, Mocks, Fakes. Boost unit testing, elevate software quality, and isolate code behavior."
 datePublished: Mon Jul 24 2023 07:16:11 GMT+0000 (Coordinated Universal Time)
 cuid: clkgjava7001i09lf4ysn8odr
