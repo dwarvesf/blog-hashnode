@@ -280,11 +280,7 @@ The Factory Pattern enables loose coupling between the client code and the concr
 
 ### 3\. Builder Pattern
 
-In the Builder pattern, the goal is to separate the construction of complex objects from their representation. It allows the same construction process to create different representations of an object. This pattern is particularly useful when you need to create objects step by step or when you want to isolate the construction logic from the client code.
-
-This
-
-Implementation example:
+In the Builder pattern, the goal is to separate the construction of complex objects from their representation. It allows the same construction process to create different representations of an object. This pattern is particularly useful when you need to create objects step by step or when you want to isolate the construction logic from the client code. Following is the example of this implementation:
 
 ```go
 // server/server.go
