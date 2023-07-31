@@ -4,7 +4,7 @@ seoDescription: "Optimize Go apps with pprof, trace tools for diagnosing perform
 datePublished: Mon Jul 31 2023 03:38:58 GMT+0000 (Coordinated Universal Time)
 cuid: clkqbmhip000i09mlgod4b3ma
 slug: diagnosing-and-resolving-performance-issues-with-pprof-and-trace-in-go
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/-gxW3aq6onU/upload/faf8ca5492566a36328526db85baab74.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690793780656/35faeb02-77da-44d1-ad23-051660c41104.webp
 tags: go, performance, backend, debugging, data-collection
 
 ---
