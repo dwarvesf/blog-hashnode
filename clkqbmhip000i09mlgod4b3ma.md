@@ -145,6 +145,8 @@ This will launch a web-based visualization of the trace data, which you can use 
 
 You can also see details about the various goroutines and how the various processes ran! trace is an excellent tool for understanding various flow events, goroutine analysis, minimum mutator utilization, and much more!
 
+## Analyzing and fixing performance issues
+
 After collecting performance data with `pprof` and `trace`, the next step is to analyze the data and identify possible performance issues.
 
 To analyze the output of pprof, it is important to understand the different types of profiling data available. The most common types are CPU and memory profiles, which can help identify functions that consume a significant amount of resources and may be causing performance bottlenecks. Additionally, pprof can generate other types of profiles such as mutex contention and blocking profiles, which can assist in pinpointing synchronization and blocking issues. For instance, a high mutex contention rate may indicate that multiple goroutines are contending for the same lock, leading to blocking and decreased performance.
