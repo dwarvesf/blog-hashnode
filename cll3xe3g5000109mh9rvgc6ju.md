@@ -1,8 +1,10 @@
 ---
 title: "Embracing Go 1.21.0's slog: A Unified Logging Interface with Benchmarks against zerolog and zap"
+seoDescription: "Examine Go 1.21.0's slog, comparing performance, memory, and allocations with zerolog and zap in this benchmark study"
 datePublished: Wed Aug 09 2023 16:09:18 GMT+0000 (Coordinated Universal Time)
 cuid: cll3xe3g5000109mh9rvgc6ju
 slug: go-1-21-release-slog-with-benchmarks-zerolog-and-zap
+tags: go, performance, debugging, logging, zerolog
 
 ---
 
