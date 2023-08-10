@@ -4,6 +4,7 @@ seoDescription: "Examine Go 1.21.0's slog, comparing performance, memory, and al
 datePublished: Wed Aug 09 2023 16:09:18 GMT+0000 (Coordinated Universal Time)
 cuid: cll3xe3g5000109mh9rvgc6ju
 slug: go-1-21-release-slog-with-benchmarks-zerolog-and-zap
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/f5pTwLHCsAg/upload/87f7f0a56a5bef74dda3f7a906f1d3f8.jpeg
 tags: go, performance, debugging, logging, zerolog
 
 ---
