@@ -9,7 +9,7 @@ tags: ai, data-science, data-science-training, llm, rlhf
 
 ---
 
-At Dwarves, we've been working on researching various topics, focused on full-stack engineering as well as AI. One of my research goal was to find out how LLMs and RLHF training worked end-to-end through a chatbot interface:
+At Dwarves, we've been working on researching various topics, focused on full-stack engineering as well as AI. One of my research goals was to find out how LLMs and RLHF training worked end-to-end through a chatbot interface:
 
 %[https://www.youtube.com/watch?v=9wNsV3TTo-I] 
 
