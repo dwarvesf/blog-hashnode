@@ -80,6 +80,21 @@ Training a machine learning model is a time-consuming process, unlike coding a w
 
 Researching RLHF training for LLMs has been an interesting journey and has helped me gain a lot more experience and knowledge of the platform than I would have just read sources online. There has been a great deal of support from the OpenAssistant discord community as well as from Redmond that has helped me in debugging various nuances in training and interacting with these models. A lot of unexpected challenges like a lack of foundational knowledge, difficulty finding an LLM cloud provider, dealing with obsolete documentation, preparing datasets, and requiring patience during the training process are very valuable experiences that I will take with me for, hopefully, a future project with AI.
 
+### Contributing
+
+At Dwarves, we encourage our people to read, write, share what we learn with others, and [contributing to the Brainery](https://brain.d.foundation/CONTRIBUTING) is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.
+
+### Love what we are doing?
+
+* Check out our [products](https://superbits.co/)
+    
+* Hire us to [build your software](https://d.foundation/)
+    
+* Join us, [we are also hiring](https://github.com/dwarvesf/WeAreHiring)
+    
+* Visit our [Discord Learning Site](https://discord.gg/dzNBpNTVEZ)
+    
+
 ### Citations:
 
 * [**https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9**](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)
