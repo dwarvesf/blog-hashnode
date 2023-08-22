@@ -165,7 +165,7 @@ context.with(trace.setSpan(context.active(), singleSpan), () => {
 	  // get trace ID
 	  const traceId = trace.getSpan(context.active()).spanContext().traceId;
 	  const spanId = trace.getSpan(context.active()).spanContext().spanId;
-	`// call request and handle response
+	// call request and handle response
 }
 // end the span
 singleSpan.end();
@@ -173,9 +173,9 @@ singleSpan.end();
 
 ### Setting up our Backend
 
-The Backend will consist of 2 main services as mentioned above. While the API service will receive HTTP requests from the Frontend and push the tasks that need to be performed further into RabbitMQ, the Sent mail service will wait for messages added to RabbitMQ and process them in order.
+The Backend will consist of 2 main services as mentioned above. While the API service will receive HTTP requests from the Frontend and push the tasks that need to be performed further into RabbitMQ, the Sent mail service will wait for messages added to RabbitMQ and process them in order
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77f06a93-7af0-48b9-b953-a4d248aeb3d7/Untitled.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692690155867/c8c5ef70-2a62-4a5a-bd60-fb6ec4d34458.png align="center")
 
 **API service**
 
