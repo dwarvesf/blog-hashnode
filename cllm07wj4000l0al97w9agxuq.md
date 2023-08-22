@@ -1,6 +1,6 @@
 ---
 title: "Resumability in Qwik"
-seoTitle: "qwik, resumability ssr"
+seoTitle: "Resumability in Qwik"
 datePublished: Tue Aug 22 2023 07:48:19 GMT+0000 (Coordinated Universal Time)
 cuid: cllm07wj4000l0al97w9agxuq
 slug: resumability-in-qwik
