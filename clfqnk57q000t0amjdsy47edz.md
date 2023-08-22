@@ -1,10 +1,10 @@
 ---
-title: "From Multi-Repo to Monorepo: A Case Study with NgheNhan Turbo Monorepo"
+title: "From Multi-Repo to Monorepo: A Case Study with Hedge Foundation"
 seoTitle: "From Multi-Repo to Monorepo: A Case Study with NgheNhan Turbo Monorepo"
 seoDescription: "n this case study, we share our experience of transitioning from multi-repository structure to a monorepo using Turbo in our project."
 datePublished: Mon Mar 27 2023 09:54:32 GMT+0000 (Coordinated Universal Time)
 cuid: clfqnk57q000t0amjdsy47edz
-slug: from-multi-repo-to-monorepo-a-case-study-with-nghenhan-turbo-monorepo
+slug: from-multi-repo-to-monorepo-a-case-study-with-hedge-foundation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679911156788/b05e11ec-4b3b-470d-b27f-4b70f66ae829.png
 tags: javascript, monorepo, collaboration, storybook, turborepo
 
@@ -14,7 +14,7 @@ tags: javascript, monorepo, collaboration, storybook, turborepo
 
 ## Introduction
 
-Over the past two years, we have developed NgheNhan - a trading platform that not only enables users to manage their accounts efficiently but also allows them to analyze market data and trading performance in realtime.
+Over the past two years, we have developed Hedge Foundation - a trading platform that not only enables users to manage their accounts efficiently but also allows them to analyze market data and trading performance in realtime.
 
 As the project expanded, our team faced challenges in managing dependencies and deploying updates across multiple repositories. Coordinating changes between components and maintaining consistency across codebases became increasingly difficult as our engineering team grew. This prompted our decision to migrate to a monorepo structure using Turbo.
 
@@ -86,7 +86,7 @@ Throughout the migration process, we learned several valuable lessons:
 
 > The transition to a monorepo with Turbo has been a game-changer for our team. We can now collaborate more effectively, build faster, and manage dependencies with ease, enabling us to focus on delivering high-quality software.
 
-— *An Tran, Lead Developer at NgheNhan*
+— *An Tran, Lead Developer at Hedge Foundation*
 
 ## Conclusion
 
