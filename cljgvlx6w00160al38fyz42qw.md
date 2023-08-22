@@ -168,3 +168,17 @@ If we don’t use `fetch` to cache the API on server code, we can still fetch da
 ## Conclusion
 
 In summary, React Server Components (RSCs) provide a powerful way to render React applications by enabling collaboration between server and client components. They improve performance, reduce bundle size, and enhance initial page loading time. By breaking down the page into smaller components, non-interactive parts can be rendered on the server as Server Components, resulting in faster page loads and a better user experience. RSCs in Next.js offer benefits such as improved performance, reduced bundle size, and simplified data fetching. Overall, RSCs offer developers a more efficient and seamless rendering experience for React applications.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
