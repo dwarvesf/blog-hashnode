@@ -58,7 +58,7 @@ To maintain tracking order and trace the process, a trace context is attached to
 * **Parent identifier** (or `parent_id`): This is the `span_id` of the "parent" span that generated the current operation.
     
 
-![](https://images.ctfassets.net/em6l9zw4tzag/14IFqR5JxfyihYP7pH3Kk8/951008e67f31c34371ca79cb3c8a27de/Screen_Shot_2021-08-11_at_5.18.21_PM.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692779479142/a20bae27-3b4f-413f-a2fe-2a8fe4892f1b.png align="center")
 
 ## OpenTelemetry: Enabling Comprehensive Observability
 
