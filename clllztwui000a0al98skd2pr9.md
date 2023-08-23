@@ -352,6 +352,21 @@ Through this article we learned the definition and keywords of distributed traci
 
 **You can find the full source code on our GitHub** [**here**](https://github.com/datphamcode295/distributed-tracing-golang-react-sentry-opentelemetry)
 
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+
 ## References
 
 [https://blog.sentry.io/distributed-tracing-101-for-full-stack-developers/](https://blog.sentry.io/distributed-tracing-101-for-full-stack-developers/)
