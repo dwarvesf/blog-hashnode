@@ -114,7 +114,7 @@ With **resumability** It tries to fix the “issues” with **hydration**, for e
 
 One major advantage of adopting Qwik is its swift initial page loading time. Particularly, if prioritizing Time To Interactive is paramount (resulting in enhanced SEO rankings on Google), Qwik presents itself as the optimal solution. Moreover, Qwik employs the familiar JSX/TSX syntax, akin to other prevailing frameworks.
 
-## References:
+## References
 
 [https://www.kodaps.dev/en/blog/qwik-the-future-of-javascript-frameworks](https://www.kodaps.dev/en/blog/qwik-the-future-of-javascript-frameworks)  
 [https://qwik.builder.io/docs/](https://qwik.builder.io/docs/)  
