@@ -1,8 +1,11 @@
 ---
 title: "Building Reliable Apps: Sentry and Distributed Tracing for Effective Monitoring"
+seoTitle: "Reliable Apps: Sentry for Distributed Tracing and Monitoring"
+seoDescription: "Enhance app monitoring with Sentry, distributed tracing, bottleneck detection, request visualization, and ongoing reliability improvement"
 datePublished: Tue Aug 22 2023 07:37:26 GMT+0000 (Coordinated Universal Time)
 cuid: clllztwui000a0al98skd2pr9
 slug: building-reliable-apps-sentry-and-distributed-tracing-for-effective-monitoring
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692778573162/be02cf65-4c06-4451-9e7b-66c9d958da4b.png
 tags: microservices, golang, monitoring, opentelemetry, sentry
 
 ---
