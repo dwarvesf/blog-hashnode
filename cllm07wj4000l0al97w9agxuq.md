@@ -5,7 +5,7 @@ datePublished: Tue Aug 22 2023 07:48:19 GMT+0000 (Coordinated Universal Time)
 cuid: cllm07wj4000l0al97w9agxuq
 slug: resumability-in-qwik
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692093137487/9cb21233-6cab-4386-95a1-661963c031dc.webp
-tags: qwik
+tags: ssr, qwik
 
 ---
 
@@ -119,3 +119,17 @@ One major advantage of adopting Qwik is its swift initial page loading time. Par
 [https://www.kodaps.dev/en/blog/qwik-the-future-of-javascript-frameworks](https://www.kodaps.dev/en/blog/qwik-the-future-of-javascript-frameworks)  
 [https://qwik.builder.io/docs/](https://qwik.builder.io/docs/)  
 [https://www.adservio.fr/post/a-brief-history-of-web-apps-why-qwik-is-innovative](https://www.adservio.fr/post/a-brief-history-of-web-apps-why-qwik-is-innovative)
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
