@@ -12,7 +12,7 @@ tags: microservices, golang, monitoring, opentelemetry, sentry
 
 ## Introduction
 
-In today's tech world, with its micro-services, cloud apps, and complex systems, how we make software has totally changed. These new ways give us huge power, but they also make new problems we need smart solutions for one big problem is knowing what's happening in all the parts of our app as things move around.
+In today's tech world, with its micro-services, cloud apps, and complex systems, how we make software has totally changed. These new ways give us huge power, but they also make new problems we need smart solutions for one big problem is knowing what's happening in all the parts of our app as things move around. Some big companies like Twitter, Uber, and Netflix have also recognized the significance of addressing this challenge and have integrated distributed tracing into their systems.
 
 Distributed tracing is the solution we use. It's like a map that shows us how things move in our app, even when it's spread out. In modern apps, where lots of parts work together, finding problems and knowing how everything works can be tricky. But distributed tracing helps us do it. It's like a flashlight that helps us see where things slow down, find mistakes, and understand how our app works, even when it's big and complex.
 
