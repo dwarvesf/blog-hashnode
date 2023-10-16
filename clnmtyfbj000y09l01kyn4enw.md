@@ -189,8 +189,8 @@ The implementation of Two-Factor Authentication (2FA) using the Time-based One-T
 
 ## Reference:
 
-[https://www.twilio.com/docs/verify/totp/technical-overview](https://www.twilio.com/docs/verify/totp/technical-overview)
-
-[https://en.wikipedia.org/wiki/Time-based\_one-time\_password](https://en.wikipedia.org/wiki/Time-based_one-time_password)
-
-[https://github.com/pquerna/otp](https://github.com/pquerna/otp)
+* [https://www.twilio.com/docs/verify/totp/technical-overview](https://www.twilio.com/docs/verify/totp/technical-overview)
+    
+* [https://en.wikipedia.org/wiki/Time-based\_one-time\_password](https://en.wikipedia.org/wiki/Time-based_one-time_password)
+    
+* [https://github.com/pquerna/otp](https://github.com/pquerna/otp)
