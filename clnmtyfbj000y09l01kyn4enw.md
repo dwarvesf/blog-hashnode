@@ -194,3 +194,18 @@ The implementation of Two-Factor Authentication (2FA) using the Time-based One-T
 * [https://en.wikipedia.org/wiki/Time-based\_one-time\_password](https://en.wikipedia.org/wiki/Time-based_one-time_password)
     
 * [https://github.com/pquerna/otp](https://github.com/pquerna/otp)
+    
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
