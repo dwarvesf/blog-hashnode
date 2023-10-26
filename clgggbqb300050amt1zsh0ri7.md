@@ -144,6 +144,23 @@ Apart from getting rid of the `goto`s, it would be best to implement the cronjob
 
 Designing concurrent systems for distributed-like systems can be a bit tricky. Naturally, everyone makes mistakes in deciding whether something should be scaled or not. Postgres and of course other applications that support application-level locks can be leveraged to handle shared resources in a blocking/non-blocking matter. I honestly do believe there are much better solutions, but it has been an interesting experience writing up this feature. Hopefully, this gives you an idea of what solutions are available for similar problems like ours.
 
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
+
 ## References
 
 * [PostgreSQL: Documentation: 15: 13.3. Explicit Locking](https://www.postgresql.org/docs/current/explicit-locking.html)
