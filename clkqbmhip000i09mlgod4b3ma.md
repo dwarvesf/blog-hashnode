@@ -162,3 +162,19 @@ Additionally, optimizing algorithms and data structures can have a significant i
 ## Conclusion
 
 We discussed the importance of optimizing Go applications to ensure optimal performance and user satisfaction. We cover common causes of performance issues, such as inefficient algorithms, blocking operations, and excessive memory usage. We introduce the **pprof** package and **trace** package for profiling and tracing Go programs, and provide an example of collecting and analyzing performance data. Finally, there are techniques for optimizing performance, including reducing memory allocations, employing asynchronous I/O, and optimizing algorithms and data structures.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
