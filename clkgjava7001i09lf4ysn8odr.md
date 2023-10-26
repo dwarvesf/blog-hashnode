@@ -473,6 +473,23 @@ In the above example, we create a Fake implementation of the `FileStore` interfa
 
 In conclusion, the article delves into the concept of Test Doubles and their significance in separating code from dependencies and enabling precise control over behavior during testing. The five types of Test Doubles - Dummies, Stubs, Spies, Mocks, and Fakes - each serve distinct purposes and cater to specific use cases. For instance, Dummies fulfill parameter requirements, Stubs provide predetermined responses, Spies capture method call information, Mocks imitate real dependencies, and Fakes offer simplified alternative implementations. Employing Test Doubles empowers developers to craft more dependable and accurate tests, resulting in faster feedback loops and heightened code quality.
 
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
+
 ## References
 
 [https://jesusvalerareales.com/testing-with-test-doubles/](https://jesusvalerareales.com/testing-with-test-doubles/)
