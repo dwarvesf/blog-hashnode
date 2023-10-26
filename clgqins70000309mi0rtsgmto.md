@@ -100,3 +100,19 @@ As we embark on our journey through the world of React, Angular, and Vue, it's c
 # Conclusion
 
 In conclusion, React, Angular, and Vue each have their strengths and weaknesses, and the choice of framework ultimately depends on your project's specific requirements and your personal preferences as a developer. React excels in performance, scalability, and community support, making it a go-to choice for many developers. Angular is a comprehensive framework with powerful built-in tooling, making it a favorite among enterprise-level applications. Vue, on the other hand, offers a gentle learning curve and flexible approach, making it an attractive option for both beginners and experienced developers. By understanding the differences and unique aspects of each framework, you can make an informed decision and select the best tool for your next web development project.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
