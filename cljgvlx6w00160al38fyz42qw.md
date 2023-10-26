@@ -182,3 +182,5 @@ In summary, React Server Components (RSCs) provide a powerful way to render Reac
 * *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
     
 * *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
