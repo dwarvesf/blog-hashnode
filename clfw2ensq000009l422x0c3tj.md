@@ -184,24 +184,6 @@ In summary, `Solution 1` is a simpler and cheaper approach to manage translation
 
 Multilingual support is a very important function for web or mobile applications nowadays. Users will come from all over the world and always ask for support for their language. The two options above have different advantages and disadvantages, so you need to consider the exact scope of the product to have the best choice for your team. Both methods can meet the needs of constantly translating products to support new features or new products, but it will cost production as well as quality assurance.
 
-If you have a difficult problem that you would like us to help you on, please feel free to submit a challenge request here.
-
-We’d love to have you in our next chapter, by all means.
-
-* Discover what we do: [dwarves.foundation](http://dwarves.foundation)
-    
-* Meet our team: [discord.gg/dwarvesv](http://discord.gg/dwarvesv)
-    
-* Join the squad: [careers.d.foundation](http://careers.d.foundation)
-    
-
-Follow our journey
-
-* Fanpage: [facebook.com/dwarvesf](http://facebook.com/dwarvesf)
-    
-* LinkedIn: [linkedin.com/company/dwarvesf](http://linkedin.com/company/dwarvesf)
-    
-
 ### ***Contributing***
 
 *At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
