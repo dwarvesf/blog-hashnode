@@ -76,3 +76,19 @@ In conclusion, at Swift, we have found that micro-frontend architecture and a sh
 In this case study, we explored how the Micro-Frontend architecture was applied across Swift’s e-commerce platform - how the system looks, and how it makes integrating a new app much more efficient. Vertically splitting the apps by sub-domains is an effective approach to Swift’s use cases - and it looks like they will keep going strong with this.
 
 Alas, Swift is not the only one among our partners that are utilizing a Micro-Frontend architecture, and we are reaching out to others for even more insights. Stay tuned for more!
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
