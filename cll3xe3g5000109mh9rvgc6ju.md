@@ -285,3 +285,19 @@ While `slog` might not be the fastest logger in the block, but it offers efficie
 `zerolog` proves to be a strong performer, being both fast and memory-efficient. On the other hand, `zap`, while being faster than `slog`, requires more memory and makes more allocations.
 
 The introduction of `slog` in Go 1.21.0 invites developers to consider and balance their needs between speed, memory usage, and allocations. As always, the "best" logger depends on the specific use case and requirements of the application. This benchmark simply adds more data for making an informed decision in the evolving world of Go logging.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
