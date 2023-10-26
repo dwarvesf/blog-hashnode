@@ -247,6 +247,23 @@ Note: The official [**GoMock README**](https://github.com/golang/mock) is a gr
 
 In conclusion, this article explores GoMock, a widely used Go framework designed to facilitate the mocking of dependencies during testing. By allowing developers to isolate units of code and conduct focused and effective testing, GoMock offers numerous benefits. It enables the creation of mock objects for interfaces, facilitates the simulation of diverse scenarios and responses from dependencies, and seamlessly integrates with the Go testing framework. The article provides a comprehensive overview of GoMock, including instructions for installation and setup, demonstrations on creating mock objects, and showcases various techniques for defining expectations and behaviors in tests. Furthermore, the article also acknowledges and discusses the limitations of GoMock.
 
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
+
 ## References
 
 [https://speedscale.com/blog/getting-started-gomock/](https://speedscale.com/blog/getting-started-gomock/)
