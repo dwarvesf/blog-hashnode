@@ -319,21 +319,18 @@ function useDVCVariable() {
 | Custom dynamic and complex feature flag conditions | ❌ | ☑️ | ☑️ |
 | Use case | \- Enable feature flag base on environments like sending login email on production but turning off on development and staging | \- Want to dynamic feature flags with multi variables |  |
 
-If you have a difficult problem that you would like us to help you on, please feel free to submit a challenge request [here](https://github.com/dwarvesf/challenge/issues/new/choose).
+### ***Contributing***
 
-**Come be with us**
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
 
-We’d love to have you on our next chapter, by all means.
+### *Love what we are doing?*
 
-* Discover what we do: https://dwarves.foundation
+* *Check out our* [***products***](https://superbits.co/)
     
-* Meet our team: https://discord.gg/dwarvesv
+* *Hire us to* [***build your software***](https://d.foundation/)
     
-* Join the squad: https://careers.d.foundation
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
     
-
-Follow our journey
-
-* Fanpage: https://www.facebook.com/dwarvesf
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
     
-* LinkedIn: https://www.linkedin.com/company/dwarvesf
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
