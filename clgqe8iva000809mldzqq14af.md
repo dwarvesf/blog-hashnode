@@ -323,6 +323,23 @@ One of the advantages of layer 2 is its higher security compared to other tradit
 
 The most important components in the system are the Prover and the smart contract, which are responsible for generating proofs and verifying proofs for transactions on the network in each batch, which enhances functionality and scalability. of the blockchain network, while minimizing security risks and increasing the security of the system.
 
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
+
 ## Reference
 
 * [https://docs.hermez.io/zkEVM/Overview/Overview/#zkprover](https://docs.hermez.io/zkEVM/Overview/Overview/#zkprover)
