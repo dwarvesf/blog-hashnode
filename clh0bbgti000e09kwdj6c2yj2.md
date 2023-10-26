@@ -700,6 +700,23 @@ The solution for it is to create the message with a command type. This type will
 
 This article provides a comprehensive overview of message brokers and their importance in today's software applications. It defines message brokers, their basic forms of communication, and when and why to use them. It then introduces RabbitMQ, a popular message broker, and explains some common patterns used with it, such as work queues and publish/subscribe. The article also covers some basic terms related to message brokers, such as exchanges, queues, routing keys, and bindings, and explains how they work together to facilitate message communication between different applications. Finally, the article compares RabbitMQ and Kafka, another popular message broker, in terms of performance, data type, synchronicity of messages, topology, payload size, usage cases, data flow, data unit, data tracking, broker/publisher type, consumer type, routing messages, topology, message delivery system, message management, message retention, event storage structure, and consumer queues.
 
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
+
 ## References
 
 * [https://www.rabbitmq.com/getstarted.html](https://www.rabbitmq.com/getstarted.html)
