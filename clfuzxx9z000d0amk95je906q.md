@@ -225,3 +225,19 @@ This case study helped us demonstrate the value of blue-green deployment in redu
 Implementing a blue-green deployment strategy for Mochi Bot proved to be a smooth and hassle-free process. It provided an immediate benefit by eliminating inconsistencies between pod updates during deployment. Thankfully, as a result, the user experience remained seamless and uninterrupted during application updates.
 
 Moving forward, our team plans to integrate [K6](https://radar.d.foundation/k6-ce823e5b593c4850afc1153c1beefbed) for API testing to improve the performance and reliability of Mochi Bot. We aim to establish a quality gate for the green version to ensure that only thoroughly tested and stable releases are deployed to the live environment.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
