@@ -194,3 +194,19 @@ To ensure data is always **consistent**, we rely on data from the blockchain. An
 Overall, Golang is a great language for building distributed systems due to its simplicity, efficiency, and concurrency support. However, like any language, it has its limitations and challenges. One of the main challenges when working with Golang for distributed systems is session management. Golang does not have built-in session management libraries, and alternative solutions may not always be effective and secure.
 
 Despite these limitations, Golang remains a popular choice for building distributed systems and has many advantages for developers looking to create efficient and scalable systems. As with any technology choice, it is important to carefully consider the trade-offs and limitations before deciding on Golang for a particular project.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
