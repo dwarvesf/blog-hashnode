@@ -68,6 +68,23 @@ As our custom libraries continue to prove their worth, we are contemplating the 
 
 If you're looking to accelerate your project initiation process, optimize your overall development workflow, and leverage advanced technical solutions, we highly recommend exploring the potential of these powerful libraries. Embrace Next-Boilerplate and React-Toolkit to stay ahead of the curve and build robust, high-performing, and scalable software solutions.
 
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
+
 ## **References**
 
 * [https://github.com/dwarvesf/nextjs-boilerplate](https://github.com/dwarvesf/nextjs-boilerplate)
