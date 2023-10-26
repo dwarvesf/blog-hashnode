@@ -445,3 +445,5 @@ In summary, implementing the strategy of retrieving environment variables, confi
 * *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
     
 * *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
