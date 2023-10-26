@@ -224,6 +224,23 @@ In general, advisory locks should be used sparingly and only when necessary. The
 
 Explicit locking is the most accessible way to resolve concurrency control in high-workload databases. Depending on the context of your application or feature, you can choose the proper type/level of database locking to avoid data conflicts, considering the pros and cons. However, this is not the only option. You can also choose other methods, such as implementing a queue or a separate service that divides and rules every request to your database. I hope this post helps you choose the right way to implement your application in the future.
 
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
+
 # REFERENCES
 
 [\[1\]](https://publish.obsidian.md/#) “Documentation: 15: 13.3. Explicit Locking.”, Table 13.2. Conflicting Lock Modes, PostgreSQL, [https://www.postgresql.org/docs/current/explicit-locking.html](https://www.postgresql.org/docs/current/explicit-locking.html). Accessed 23 April 2023.
