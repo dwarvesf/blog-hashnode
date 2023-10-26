@@ -29,12 +29,10 @@ Likewise, we've created a few Jupyter notebooks working on [Langchain](https://p
 
 * [Workaround with OpenAI's token limit with Langchain - The Dwarves Brainery](https://brain.d.foundation/Engineering/AI/Workaround+with+OpenAI's+token+limit+with+Langchain)
     
-
 * [Working with langchain document loaders - The Dwarves Brainery](https://brain.d.foundation/Engineering/AI/Working+with+langchain+document+loaders)
     
 * [https://colab.research.google.com/drive/1FMbBYPLz01lLma4jK36-fABjQC2vhyRJ?usp=sharing](https://colab.research.google.com/drive/1FMbBYPLz01lLma4jK36-fABjQC2vhyRJ?usp=sharing)
     
-
 * [https://github.com/dudaka/automating-pdf-interaction-with-langchain-and-chatgpt](https://github.com/dudaka/automating-pdf-interaction-with-langchain-and-chatgpt)
     
 
@@ -267,6 +265,23 @@ In addition, we also aim to make our pipeline more cloud agnostic by using [SkyP
 ## Conclusion
 
 In conclusion, after looking through a ton of resources, we were able to walk our first baby steps into the world of LLMs. Fine-tuning with PEFT LoRA has been a very insightful experience and has kind of opened our eyes to the fact of how low the barrier to entry AI has gotten. There's still of course a bit of nuance and "maneuvering" left to do with these models before they are app-ready, but we're looking forward to how we can apply these in the future.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
 
 ## References
 
