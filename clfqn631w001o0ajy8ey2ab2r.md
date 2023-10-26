@@ -111,3 +111,19 @@ Our meticulously selected frontend tech stack enables Dwarves Foundation to keep
 Ultimately, our robust tech stack, architecture, and testing practices contribute to our ability to stay ahead of the competition and deliver exceptional user experiences that meet the dynamic and challenging demands of today's technology landscape.
 
 If you're seeking a technology partner with expertise in creating scalable, high-performance frontend solutions, we invite you to reach out to the Dwarves Foundation team for a consultation. We're eager to learn about your unique challenges and explore how we can help you succeed. To get in touch and learn more about our services, please visit our contact page at [**https://dwarves.foundation/contact/**](https://dwarves.foundation/contact/). Let's work together to bring your vision to life!
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
