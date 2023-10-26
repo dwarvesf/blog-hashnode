@@ -502,3 +502,19 @@ In summary, while it is possible to run a large number of goroutines with GOMAXP
 ## Conclusion
 
 In conclusion, managing concurrent workloads with Goroutines in Go can be a powerful and efficient way to process large amounts of data and improve application performance. However, it's important to consider the potential drawbacks and design considerations, such as increased complexity, resource consumption, synchronization overhead, deadlocks, and race conditions. By carefully managing the number of Goroutines, using channels for communication, being mindful of blocking operations, and keeping critical sections short, it's possible to create scalable, maintainable, and efficient applications with Go.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
