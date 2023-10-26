@@ -275,3 +275,5 @@ With that, we explored some different ways to perform batch updates in SQL, focu
 * *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
     
 * *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
