@@ -55,3 +55,19 @@ The time it takes for the AI service to respond is another critical challenge th
 ## **Conclusion**
 
 Although we encountered several challenges in our MVP, these obstacles present valuable learning opportunities. Our R&D team is exploring various engineering practices to overcome these challenges and optimize our chatbot's capabilities. This exploration is not only an integral part of our development process but also a fascinating journey into the future of AI-powered customer service.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
