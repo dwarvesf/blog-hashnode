@@ -180,3 +180,19 @@ I learned a lot from this project: working with Discord API and understanding it
 I heard about paid projects as an interviewing method before, but doing it with Dwarves is my first real experience with the method, and I feel fairly positive after all. The benefits are clear: the interviewer is going to have a clear understanding and a full evaluation of the interviewee, and the interviewee can also experience first-hand how is it working at the company. The drawback of time consumption for both sides can also be easily seen. Unable to be used at scale for manpower problems is another drawback that I find.
 
 In the end, I enjoy my interviewing experience with Dwarves, and feel that they live up to their value of craftsmanship.
+
+### ***Contributing***
+
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+
+### *Love what we are doing?*
+
+* *Check out our* [***products***](https://superbits.co/)
+    
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
