@@ -112,19 +112,21 @@ It's also best to learn the process of fine-tuning AI models and LLMs like ChatG
 
 The general idea of this story map is to help engineers develop a strong foundation in researching and creating AI applications, such as chatbots, code automation, personal assistants, and fine-tuning AI models with LLMs like ChatGPT and LLaMA. A lot of these skills involve a bit of ad-hoc ingenuity, but will help has a basic foundation of patterns we see in AI development.
 
-### *Contributing*
+### ***Contributing***
 
-*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [*contributing to the Brainery*](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
 
 ### *Love what we are doing?*
 
-* *Check out our* [*products*](https://superbits.co/)
+* *Check out our* [***products***](https://superbits.co/)
     
-* *Hire us to* [*build your software*](https://d.foundation/)
+* *Hire us to* [***build your software***](https://d.foundation/)
     
-* *Join us,* [*we are also hiring*](https://github.com/dwarvesf/WeAreHiring)
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
     
-* *Visit our* [*Discord Learning Site*](https://discord.gg/dzNBpNTVEZ)
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
     
 
 ## References
