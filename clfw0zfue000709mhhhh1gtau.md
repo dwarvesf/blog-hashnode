@@ -215,19 +215,18 @@ i18next.t('list', {
 
 Multilingual is a very important function for web or mobile applications nowadays, Users will come from all over the world and always ask for support for their language. Above is a guide to help you install multi-language for your application or website, You can implement it according to the instructions to automatically find the user's language, setup multi-language by domain or subpath, support LTR and RTL text, and finally format of number, currency, time, list…
 
-If you have a difficult problem that you would like us to help you on, please feel free to submit a challenge request here.
+### ***Contributing***
 
-We’d love to have you in our next chapter, by all means.
+*At Dwarves, we encourage our people to read, write, share what we learn with others, and* [***contributing to the Brainery***](https://brain.d.foundation/CONTRIBUTING) *is an important part of our learning culture. For visitors, you are welcome to read them, contribute to them, and suggest additions. We maintain a monthly pool of $1500 to reward contributors who support our journey of lifelong growth in knowledge and network.*
 
-* Discover what we do: [dwarves.foundation](http://dwarves.foundation)
-    
-* Meet our team: [discord.gg/dwarvesv](http://discord.gg/dwarvesv)
-    
-* Join the squad: [careers.d.foundation](http://careers.d.foundation)
-    
+### *Love what we are doing?*
 
-Follow our journey
-
-* Fanpage: [facebook.com/dwarvesf](http://facebook.com/dwarvesf)
+* *Check out our* [***products***](https://superbits.co/)
     
-* LinkedIn: [linkedin.com/company/dwarvesf](http://linkedin.com/company/dwarvesf)
+* *Hire us to* [***build your software***](https://d.foundation/)
+    
+* *Join us,* [***we are also hiring***](https://github.com/dwarvesf/WeAreHiring)
+    
+* *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
+    
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
