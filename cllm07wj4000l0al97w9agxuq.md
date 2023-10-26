@@ -129,6 +129,8 @@ One major advantage of adopting Qwik is its swift initial page loading time. Par
     
 * *Visit our* [***Discord Learning Site***](https://discord.gg/dzNBpNTVEZ)
     
+* *Visit our* [*GitHub*](https://github.com/dwarvesf)
+    
 
 ## References
 
