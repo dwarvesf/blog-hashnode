@@ -1,8 +1,11 @@
 ---
 title: "LLM as a Judge"
+seoTitle: "AI as Judicial Decision-Maker"
+seoDescription: "Explore the concept of LLM-as-a-Judge, evaluating AI models' responses using other LLMs, an alternative to traditional human assessment"
 datePublished: Wed Oct 16 2024 04:40:52 GMT+0000 (Coordinated Universal Time)
 cuid: cm2bdwguk000e08l835mo6uos
 slug: llm-as-a-judge
+canonical: https://memo.d.foundation/playground/ai/building-llm-system/llm-as-a-judge/
 tags: evaluation, llm
 
 ---
