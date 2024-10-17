@@ -8,7 +8,6 @@ tags: ai, llm
 
 ---
 
-
 The potential applications of large language models (LLMs) and other AI foundation models seem truly endless. If you can dream it up, chances are there's an AI system out there that can help bring your vision to life. But attempting to categorize all the possible use cases is a daunting task - the possibilities are just too vast.
 
 Still, by digging into hundreds of [real-world AI applications](https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders) and [open-source projects](https://huyenchip.com/llama-police), we can start to see some interesting trends emerge. It looks like most of these use cases fall into two main buckets: stuff businesses are using AI for, and ways everyday people are putting AI to work in their lives.
