@@ -9,7 +9,6 @@ tags: observability, llm, metric, pillar
 
 ---
 
-
 When it comes to observability in Large Language Model (LLM) applications, metrics have significance delivering that these systems work correctly. Metrics provide information on both system performance and model efficiency, enabling developers and researchers to fine-tune their systems. In this article, we'll look at important metrics for monitoring and evaluating LLMs.
 
 ## System Metrics
