@@ -9,7 +9,6 @@ tags: ai, llm
 
 ---
 
-
 In the course of technological history, few developments have captured the imagination and transformed industries as swiftly and profoundly as the recent surge in artificial intelligence. The release of ChatGPT marked a pivotal moment, followed by other tech giants entering the arena. Google introduced Gemini, Facebook unveiled Llama, and Anthropic launched Claude. These powerful AI foundation models have demonstrated an unprecedented ability to drive a wide array of tasks, significantly boosting productivity and creating substantial economic value. As a result, teams and individuals across various sectors have begun to explore innovative ways to harness AI for building a new wave of applications.
 
 However, a significant roadblock has emerged on this path of innovation: **the cost**. Training large language models (LLMs) requires vast amounts of data, immense computational power, and specialized talent—resources that only a select few organizations can afford. This scenario is reminiscent of the early days of cloud computing, drawing parallels to the story of Amazon Web Services. In response to this challenge, a new paradigm has emerged: model-as-a-service. This approach allows models to be provided for others to use as a service, democratizing access to AI capabilities.
