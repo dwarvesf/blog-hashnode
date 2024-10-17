@@ -9,7 +9,6 @@ tags: observability, tracing, llm, pillar
 
 ---
 
-
 ## What is tracing
 
 Tracing is a way to keep track of, debug, and get a clear picture of how an LLM app is running. It gives a detailed snapshot of a specific action, like making a call to the LLM, formatting a prompt, or running a function.
