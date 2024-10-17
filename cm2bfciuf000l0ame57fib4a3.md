@@ -9,7 +9,6 @@ tags: ai, tooling, llm
 
 ---
 
-
 ## When
 
 Building software with Large Language Models (LLMs) involves several steps, from planning to deployment. LLM tracing emerges as a final step in this process, providing ongoing insights and enabling continuous improvement of LLM-powered applications.
