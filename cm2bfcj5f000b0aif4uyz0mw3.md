@@ -9,7 +9,6 @@ tags: ai, tooling, llm
 
 ---
 
-
 ## Generative AI
 
 ![](https://memo.d.foundation/playground/ai/assets/developing-rapidly-with-generative-ai_ai-eco.webp)
