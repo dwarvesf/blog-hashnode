@@ -9,7 +9,6 @@ tags: llm, information-retrieval, document-processing
 
 ---
 
-
 ## What is it?
 
 RAPTOR (Recursive Abstractive Processing for Tree-Organized Retrieval) is a new technique for improving retrieval-augmented language models, particularly for long documents: https://arxiv.org/html/2401.18059v1
