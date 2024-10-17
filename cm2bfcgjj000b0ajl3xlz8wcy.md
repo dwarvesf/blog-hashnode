@@ -9,7 +9,6 @@ tags: ai, llm, generative-ui
 
 ---
 
-
 ## What is Generative UI?
 
 - A **generative UI** (genUI) is a user interface that responds to the user with AI-generated elements instead of just text messages.
